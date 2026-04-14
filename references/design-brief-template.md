@@ -4,6 +4,13 @@ Keep the brief concise unless the user asks for more depth. A good default is 40
 
 Do not invent evidence, numbers, users, or constraints. If something is unknown, label it as an assumption or open question.
 
+If the brief is saved to a file, you may add lightweight metadata near the top:
+
+- `Generated: {date}`
+- `Mode: Startup` or `Mode: Builder`
+- `Status: DRAFT` or `Status: APPROVED`
+- `Supersedes: {prior brief path}` when revising an earlier repo-local brief
+
 ## Startup Brief
 
 ```markdown
@@ -21,10 +28,16 @@ Do not invent evidence, numbers, users, or constraints. If something is unknown,
 ## Target User And Wedge
 {The specific person and the smallest sellable version}
 
+## Constraints
+{Timeline, integrations, repo constraints, business constraints, or why the scope must stay narrow}
+
 ## Premises
 - {premise 1}
 - {premise 2}
 - {premise 3}
+
+## Landscape Notes
+{Optional. Include only when live browsing or external source review materially changed the recommendation}
 
 ## Approaches Considered
 ### Approach A: {name}
@@ -46,6 +59,9 @@ Do not invent evidence, numbers, users, or constraints. If something is unknown,
 ## Success Criteria
 - {measurable sign 1}
 - {measurable sign 2}
+
+## Distribution Plan
+{Optional. Include when the artifact needs a clear path to users such as package distribution, releases, or demo access}
 
 ## Next Real-World Action
 {The next conversation, observation, sale, pilot, or prototype move}
@@ -70,6 +86,9 @@ Do not invent evidence, numbers, users, or constraints. If something is unknown,
 - {premise 2}
 - {premise 3}
 
+## Landscape Notes
+{Optional. Include only when external review changed the design direction or differentiated the concept}
+
 ## Approaches Considered
 ### Approach A: {name}
 {Summary, pros, cons, effort, risk}
@@ -91,6 +110,9 @@ Do not invent evidence, numbers, users, or constraints. If something is unknown,
 - {what "done" looks like}
 - {what makes it demo-worthy or useful}
 
+## Distribution Plan
+{Optional. How people will discover, access, or try it if that matters}
+
 ## Next Build Steps
 1. {step 1}
 2. {step 2}
@@ -103,3 +125,7 @@ Do not invent evidence, numbers, users, or constraints. If something is unknown,
 - Quote the user's own evidence or wording where it sharpens the brief.
 - Prefer plain language over strategy jargon.
 - If the user asked to save the brief, write it into an obvious repo-local path instead of a hidden global directory.
+- Support a handoff loop:
+  - Approve: mark saved briefs as `Status: APPROVED`
+  - Revise: update the same brief in place when practical
+  - Start over: resume questioning instead of defending a weak recommendation

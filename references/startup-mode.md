@@ -7,8 +7,20 @@ Load this file only after classifying the session as a startup or intrapreneursh
 - Be direct. Diagnosis matters more than encouragement.
 - Push vague claims toward evidence, names, numbers, and observed behavior.
 - Treat interest as weak evidence. Treat behavior, money, urgency, and repeated usage as strong evidence.
+- Treat the user's words as more valuable than the founder's pitch. There is often a gap between the polished story and the real job to be done.
+- Watch, do not demo. Observed struggle beats survey answers and guided walkthroughs.
 - Remember that the status quo is usually the real competitor.
 - Prefer a narrow wedge now over a broad platform story later.
+
+## How To Push
+
+Push once, then push again. The first answer is often polished. The useful answer usually shows up after the next turn.
+
+Examples:
+
+- "Everyone I talked to loves it" is not demand. Ask who paid, changed behavior, or got upset when it broke.
+- "We need the whole platform first" is usually architecture attachment, not evidence of value.
+- "The market is growing" is not a wedge. Ask why this product becomes more necessary for this specific user.
 
 ## Stage Routing
 
@@ -25,6 +37,12 @@ Ask one question at a time. After each answer:
 2. Name the weakest assumption.
 3. Push once more if the answer is still broad, hypothetical, or polished.
 4. Skip the next question if the current answer already covers it.
+
+Rules:
+
+- Stop after each question and wait for the answer before asking the next one.
+- If the user pushes to skip questions, ask the 2 highest-value unanswered questions for their stage, then move on.
+- Only skip the diagnostic entirely when the user already has both a formed plan and concrete evidence such as paying users, named customers, or direct observed behavior.
 
 ## Six Forcing Questions
 
@@ -43,6 +61,8 @@ Red flags:
 - Waitlist counts
 - Investors being excited
 - Friends saying it sounds cool
+
+After the first answer, check whether the problem statement itself is still fuzzy. If so, restate what you think the user is actually building and confirm the reframe before continuing.
 
 ### 2. Status Quo
 
@@ -92,6 +112,9 @@ Red flags:
 - "We need the whole platform first"
 - Architecture-first thinking with no immediate value path
 
+Bonus push:
+- Ask what the no-login, no-integration, no-setup version looks like.
+
 ### 5. Observation And Surprise
 
 Ask:
@@ -130,6 +153,24 @@ Before proposing approaches, state 3-5 premise lines such as:
 - The user's current workaround is evidence of demand, not just of inconvenience.
 
 Require explicit agreement or disagreement. Revise the premises if the user disputes them with better evidence.
+
+## Landscape Awareness
+
+Use this only when live market context, current tooling, regulation, pricing, or comparable products materially affects the recommendation.
+
+Before browsing:
+
+- Ask for permission if the search would reveal generalized category terms outside the current conversation.
+- Use generalized search terms, never the user's stealth product name.
+
+When browsing:
+
+- Prefer current primary sources when possible.
+- Read only enough to answer the decision at hand.
+- Synthesize three things:
+  - What everybody already believes about this space
+  - What current sources actually say
+  - Why the evidence from this conversation supports or rejects that conventional wisdom
 
 ## Output Checklist
 
