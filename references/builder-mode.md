@@ -32,6 +32,17 @@ Rules:
 - If the user is impatient or already has a fully formed plan with enough texture, fast-track to premises and alternatives instead of dragging out the interview.
 - Even when fast-tracking, still name what seems true versus assumed before recommending a path.
 
+## Escape Hatch
+
+Builder mode should never feel like an interrogation.
+
+If the user says some version of "just do it", "skip the questions", or already supplied a fully formed plan with enough texture to design against:
+
+- Fast-track after at most one highest-value missing question.
+- Move to premises and alternatives instead of continuing the interview.
+- Do not skip premise confirmation just because you fast-tracked.
+- Keep the energy generative. The point is momentum, not rigor theater.
+
 ## Core Questions
 
 ### 1. Coolest Version
@@ -97,4 +108,5 @@ End builder mode with:
 - The key differentiator versus existing tools
 - 2-3 approaches
 - One recommended path
+- One concrete next action
 - A short next-build sequence

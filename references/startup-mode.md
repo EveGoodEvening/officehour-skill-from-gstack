@@ -24,6 +24,7 @@ Examples:
 
 ## Stage Routing
 
+- Determine the stage up front from the user's prompt or an explicit stage question before choosing which forcing questions to emphasize.
 - Pre-product: focus on demand, status quo, target user, and wedge.
 - Has users but little revenue: focus on status quo, wedge, observation, and surprise.
 - Has paying customers: focus on wedge, observation, future-fit, and what expands or breaks demand.
@@ -42,7 +43,33 @@ Rules:
 
 - Stop after each question and wait for the answer before asking the next one.
 - If the user pushes to skip questions, ask the 2 highest-value unanswered questions for their stage, then move on.
-- Only skip the diagnostic entirely when the user already has both a formed plan and concrete evidence such as paying users, named customers, or direct observed behavior.
+- Only skip the diagnostic entirely when the user already has both a formed plan and concrete evidence such as paying users, named customers, revenue, repeated usage, or direct observed behavior.
+
+## Full-Skip Evidence Gate
+
+A full skip of the startup diagnostic is allowed only when both of these are true:
+
+- The user has a formed plan, not just a vague idea or a polished pitch.
+- The user has concrete demand evidence.
+
+Strong evidence includes:
+
+- Paying customers
+- Revenue or expansion data
+- Named users by role and company
+- Direct observation of repeated behavior
+- Someone clearly changing workflow around the product
+- Someone who would be upset if the product disappeared
+
+Not enough on its own:
+
+- "I've thought about this a lot"
+- Waitlist counts
+- Investors being interested
+- Friends saying it sounds cool
+- A polished deck or confident thesis
+
+If either half is missing, ask at least the 2 highest-value unanswered questions for the user's stage before moving to premises and approaches.
 
 ## Six Forcing Questions
 
@@ -152,7 +179,7 @@ Before proposing approaches, state 3-5 premise lines such as:
 - The first sellable wedge is narrow and service-like, not a full platform.
 - The user's current workaround is evidence of demand, not just of inconvenience.
 
-Require explicit agreement or disagreement. Revise the premises if the user disputes them with better evidence.
+Require explicit agreement or disagreement. Revise the premises if the user disputes them with better evidence, then confirm the revised version before moving on.
 
 ## Landscape Awareness
 

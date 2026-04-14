@@ -40,13 +40,15 @@ If the brief is saved to a file, you may add lightweight metadata near the top:
 {Optional. Include only when live browsing or external source review materially changed the recommendation}
 
 ## Approaches Considered
-### Approach A: {name}
+{Include at least 2 materially different approaches. One must be the minimal viable path. One must be the stronger long-term path. Add a third only when a lateral option genuinely reframes the problem.}
+
+### Approach A: {minimal viable path}
 {Summary, pros, cons, effort, risk}
 
-### Approach B: {name}
+### Approach B: {stronger long-term path}
 {Summary, pros, cons, effort, risk}
 
-### Approach C: {optional}
+### Approach C: {optional lateral path}
 {Use only when it is materially different}
 
 ## Recommended Approach
@@ -90,13 +92,15 @@ If the brief is saved to a file, you may add lightweight metadata near the top:
 {Optional. Include only when external review changed the design direction or differentiated the concept}
 
 ## Approaches Considered
-### Approach A: {name}
+{Include at least 2 materially different approaches. One must be the minimal viable path. One must be the stronger long-term path. Add a third only when a lateral option genuinely reframes the problem.}
+
+### Approach A: {minimal viable path}
 {Summary, pros, cons, effort, risk}
 
-### Approach B: {name}
+### Approach B: {stronger long-term path}
 {Summary, pros, cons, effort, risk}
 
-### Approach C: {optional}
+### Approach C: {optional lateral path}
 {Use only when it is materially different}
 
 ## Recommended Approach
@@ -113,6 +117,9 @@ If the brief is saved to a file, you may add lightweight metadata near the top:
 ## Distribution Plan
 {Optional. How people will discover, access, or try it if that matters}
 
+## Next Real-World Action
+{The very next action to take. Make it concrete. It can be a conversation, observation, demo, or thin-slice build step, but not "go build it."}
+
 ## Next Build Steps
 1. {step 1}
 2. {step 2}
@@ -124,6 +131,8 @@ If the brief is saved to a file, you may add lightweight metadata near the top:
 - Lead with the recommendation, then show the alternatives.
 - Quote the user's own evidence or wording where it sharpens the brief.
 - Prefer plain language over strategy jargon.
+- Every brief must include at least 2 approaches: one minimal viable path and one stronger long-term path. A lateral third path is optional.
+- Every brief must end with one concrete next action or assignment. Do not end with "go build it."
 - If the user asked to save the brief, write it into an obvious repo-local path instead of a hidden global directory.
 - Support a handoff loop:
   - Approve: mark saved briefs as `Status: APPROVED`
